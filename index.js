@@ -121,7 +121,7 @@ app.post('/register', (req, res) => {
 // 404 page route
 app.get('*', (req, res) => {
   res.render('404', { username: req.session.user ? req.session.user.username : null });
-  // Render the '404' view and pass the username of the logged-in user (if available) to the template
+  // Render the '404' page when the user access an unavaliable Webpage
 });
 
 // Start the server on port 8080 to make it accessible in a web browser
