@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Not Found</title>
+</head>
+<body>
+  <h1>404: Page Not Found</h1>
+  <p>The page you were trying to reach does not exist. Please check the URL and try again.</p>
+  <% if (username) { %>
+    <p>Logged in as <%= username %></p>
+    <a href="/dashboard">Go to Dashboard</a>
+    <a href="/logout">Log Out</a>
+  <% } else { %>
+    <a href="/login">Log In</a>
+    <a href="/register">Register</a>
+  <% } %>
+</body>
+</html>
