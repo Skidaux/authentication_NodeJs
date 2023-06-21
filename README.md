@@ -1,5 +1,5 @@
 # authentication_NodeJs
-Certainly! Here's an example of a README file for the app:
+
 User Authentication App
 
 This is a simple user authentication app built with Node.js and Express. It allows users to register, log in, and access a dashboard. The app uses session management to keep track of logged-in users and stores user data in a JSON file.
